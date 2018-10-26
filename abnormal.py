@@ -38,20 +38,3 @@ if __name__ == '__main__':
     abnor(gpus)
 
 
-
-
-# for pid in pids:
-#     p = psutil.Process(pid)
-#     #print('%s      %s' %(pid,p.name()))
-#     if pid == 1100:
-#         pass
-#     else:
-#         try:
-#             smtpObj = smtplib.SMTP_SSL(host,465)
-#             smtpObj.login(sender,password)
-#             smtpObj.sendmail(sender,receivers,message.as_string())
-#             print("发送邮件成功")
-#         except smtplib.SMTPException as e:
-#             print("发送邮件产生错误")
-#             print(e)
-#         smtpObj.close()
